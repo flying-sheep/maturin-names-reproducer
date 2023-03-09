@@ -33,7 +33,7 @@ Unfortunately the last one doesn’t seem to work: maturin generates a package n
     └── WHEEL
 ```
 
-<samp>xdot/__init__.py</samp>:
+<samp>xdot/\_\_init\_\_.py</samp>:
 ```py
 from .xdot import *
 
