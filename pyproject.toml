@@ -1,0 +1,13 @@
+[build-system]
+requires = ['maturin>=0.14,<0.15']
+build-backend = 'maturin'
+
+[project]
+name = 'xdot-rs'
+dynamic = ['version', 'description']
+requires-python = '>=3.8'
+
+[tool.maturin]
+features = ['pyo3']
+# uncommenting the following doesn’t change anything
+# python-modules = ['xdot_rs']
