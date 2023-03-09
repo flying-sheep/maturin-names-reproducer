@@ -10,7 +10,7 @@ At the time of writing, I have the following, which I think mean what I write in
 - <samp>Cargo.toml</samp>
 
   - `package.name = 'xdot'` to set the crate name for crates.io
-  - `package.metadata.maturin.name = 'xdot_rs` to set the dylib name used by maturin (defaults to `package.name` and needs to match the Python module name)
+  - `package.metadata.maturin.name = 'xdot_rs'` to set the dylib name used by maturin (defaults to `package.name` and needs to match the Python module name)
 
 - <samp>pyproject.toml</samp>
 
