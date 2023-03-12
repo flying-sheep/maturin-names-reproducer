@@ -1,3 +1,5 @@
+This bug is fixed in [PyO3/maturin#1524](https://github.com/PyO3/maturin/pull/1524)
+
 maturin divergent name reproducer
 =================================
 
